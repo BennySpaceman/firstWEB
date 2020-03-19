@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Bellota+Text|Inter:400,700&display=swap&subset=cyrillic');
+@import url('https://fonts.googleapis.com/css?family=Bellota|Bellota+Text&display=swap');
 
 body
 {
@@ -15,7 +15,7 @@ body
 
 h1, h2
 {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Bellota', cursive;
 
     text-align: center;
 }
@@ -30,7 +30,7 @@ form
 
     border: 1px solid #000;
     border-radius: 8px;
-    background-color: #80bcca;
+    background-color: #a7a7a7e8;
     box-shadow: 7px 7px 25px -5px black;
 }
 

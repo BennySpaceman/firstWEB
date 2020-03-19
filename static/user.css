@@ -97,8 +97,8 @@ form
     transition: color .3s;
     transition: background .3s;
 
-    color: #fff;
-    background: #7baec3;
+    color: rgb(0, 0, 0);
+    background: #a7a7a7;
 }
 
 #form-toggler
