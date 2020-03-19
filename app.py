@@ -2,9 +2,8 @@ from flask import Flask, render_template, request, redirect, url_for, session, a
 from model import add_user, check_user, get_user_tasks, change_user_task, remove_user_task, create_user_task, get_id_by_name
 from model import AccountExists, AccountNotFound
 
-
 app = Flask(__name__)
-app.secret_key = 'megapasswordnagibator'
+app.secret_key = 'thesafestpasswordinthewholeworld'
 
 
 @app.route('/', methods=['GET', 'POST'])

@@ -5,7 +5,6 @@ from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.exc import IntegrityError
 from werkzeug.security import generate_password_hash, check_password_hash
 
-
 engine = create_engine('sqlite:///app.db', echo=True)
 Base = declarative_base(bind=engine)
 
@@ -54,6 +53,7 @@ class Task(Abstract, Base):
 
 
 # Base.metadata.create_all()
+
 
 def add_user(name, email, password):
     engine = create_engine('sqlite:///app.db', echo=True)
@@ -135,4 +135,3 @@ def get_id_by_name(name):
         return user.id
     except AttributeError:
         raise AccountNotFound
-
